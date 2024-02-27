@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content = "width = device-width, initial-scale=1.0">
+        <title>QR Generator</title>
+        <link rel="stylesheet" href="style.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <main>
+            <div class="container">
+                <section id="first">
+                    <h1>QR Code</h1>
+                    <p>Generator</p>
+                    <p id="tagline">
+                        Unlock the word with pixelated portal, <br>
+                        QR Codes: Connect,share and explore it all !
+                    </p>
+                </section>
+                <section id="second">
+                    <form action="#">
+                        <input type="text" name="text" id="text" placeholder="Enter text or URL Here" autocomplete="off">
+                        <button id="generate">Generate</button>
+                    </form>
+                    <div id="qrcode-div">
+                       <img class="qrcode"> 
+                    </div>
+                </section>
+            </div>
+        </main>
+        <script src="app.js"></script>
+    </body>
+</html>
